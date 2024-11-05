@@ -1,4 +1,4 @@
-FROM debian:10
+FROM debian:10@sha256:58ce6f1271ae1c8a2006ff7d3e54e9874d839f573d8009c20154ad0f2fb0a225
 
 # Installing dependencies.
 RUN dpkg --add-architecture i386
